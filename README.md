@@ -407,7 +407,7 @@ To satisfy my own interests, I also took note of the highest and lowest overall 
 |1st half|Highest|Eagles|84.09%|H|
 |1st Half|Lowest|Titans|62.79%|V|
 |2nd half|Highest|Texans|81.08%|V|
-|2nd half|Lowest|Cardinals|63.41%||V|
+|2nd half|Lowest|Cardinals|63.41%|V|
 |All combos|Highest|Jaguars|80.49%|V|
 |All combos|Lowest|Chiefs|74.42%|V|
 
