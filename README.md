@@ -1,4 +1,4 @@
-# NFL_rtr_scores
+# NFL_Qtr_scores
 ## Capstone Technical Report
 ### Problem Statement:  How accurately can we predict outcomes of NFL games by focusing on quarterly outcomes?
 
