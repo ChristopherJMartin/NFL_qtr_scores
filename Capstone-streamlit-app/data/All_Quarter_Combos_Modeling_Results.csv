@@ -1,0 +1,151 @@
+,Clump,Estimator,params,accuracy
+0,0,BaggingClassifier,NA,0.6506386175807664
+1,1,BaggingClassifier,NA,0.6408715251690458
+2,2,BaggingClassifier,NA,0.6198347107438017
+3,3,BaggingClassifier,NA,0.6333583771600301
+4,4,BaggingClassifier,NA,0.7039819684447783
+5,5,BaggingClassifier,NA,0.6867017280240421
+6,6,BaggingClassifier,NA,0.709992486851991
+7,7,BaggingClassifier,NA,0.6927122464312547
+8,8,BaggingClassifier,NA,0.6994740796393689
+9,9,BaggingClassifier,NA,0.6912096168294516
+10,10,BaggingClassifier,NA,0.7565740045078888
+11,11,BaggingClassifier,NA,0.7610818933132982
+12,12,BaggingClassifier,NA,0.7648384673178061
+13,13,BaggingClassifier,NA,0.7565740045078888
+14,14,BaggingClassifier,NA,0.8437265214124718
+15,0,RandomForestClassifier,NA,0.6506386175807664
+16,1,RandomForestClassifier,NA,0.6408715251690458
+17,2,RandomForestClassifier,NA,0.6198347107438017
+18,3,RandomForestClassifier,NA,0.6333583771600301
+19,4,RandomForestClassifier,NA,0.70473328324568
+20,5,RandomForestClassifier,NA,0.6859504132231405
+21,6,RandomForestClassifier,NA,0.709992486851991
+22,7,RandomForestClassifier,NA,0.6942148760330579
+23,8,RandomForestClassifier,NA,0.6979714500375658
+24,9,RandomForestClassifier,NA,0.6912096168294516
+25,10,RandomForestClassifier,NA,0.7422990232907588
+26,11,RandomForestClassifier,NA,0.7640871525169046
+27,12,RandomForestClassifier,NA,0.763335837716003
+28,13,RandomForestClassifier,NA,0.754320060105184
+29,14,RandomForestClassifier,NA,0.8512396694214877
+30,0,LogisticRegression,NA,0.6506386175807664
+31,1,LogisticRegression,NA,0.6408715251690458
+32,2,LogisticRegression,NA,0.6198347107438017
+33,3,LogisticRegression,NA,0.6333583771600301
+34,4,LogisticRegression,NA,0.70473328324568
+35,5,LogisticRegression,NA,0.6867017280240421
+36,6,LogisticRegression,NA,0.709992486851991
+37,7,LogisticRegression,NA,0.7039819684447783
+38,8,LogisticRegression,NA,0.6979714500375658
+39,9,LogisticRegression,NA,0.6912096168294516
+40,10,LogisticRegression,NA,0.7603305785123967
+41,11,LogisticRegression,NA,0.7768595041322314
+42,12,LogisticRegression,NA,0.7768595041322314
+43,13,LogisticRegression,NA,0.7670924117205109
+44,14,LogisticRegression,NA,0.864763335837716
+45,0,DecisionTreeClassifier,NA,0.6506386175807664
+46,1,DecisionTreeClassifier,NA,0.6408715251690458
+47,2,DecisionTreeClassifier,NA,0.6198347107438017
+48,3,DecisionTreeClassifier,NA,0.6333583771600301
+49,4,DecisionTreeClassifier,NA,0.70473328324568
+50,5,DecisionTreeClassifier,NA,0.6859504132231405
+51,6,DecisionTreeClassifier,NA,0.709992486851991
+52,7,DecisionTreeClassifier,NA,0.6942148760330579
+53,8,DecisionTreeClassifier,NA,0.6949661908339594
+54,9,DecisionTreeClassifier,NA,0.6912096168294516
+55,10,DecisionTreeClassifier,NA,0.7445529676934636
+56,11,DecisionTreeClassifier,NA,0.7648384673178061
+57,12,DecisionTreeClassifier,NA,0.7670924117205109
+58,13,DecisionTreeClassifier,NA,0.7550713749060857
+59,14,DecisionTreeClassifier,NA,0.8527422990232908
+60,0,ExtraTreesClassifier,NA,0.6506386175807664
+61,1,ExtraTreesClassifier,NA,0.6408715251690458
+62,2,ExtraTreesClassifier,NA,0.6198347107438017
+63,3,ExtraTreesClassifier,NA,0.6333583771600301
+64,4,ExtraTreesClassifier,NA,0.70473328324568
+65,5,ExtraTreesClassifier,NA,0.6859504132231405
+66,6,ExtraTreesClassifier,NA,0.709992486851991
+67,7,ExtraTreesClassifier,NA,0.6942148760330579
+68,8,ExtraTreesClassifier,NA,0.6949661908339594
+69,9,ExtraTreesClassifier,NA,0.6912096168294516
+70,10,ExtraTreesClassifier,NA,0.7445529676934636
+71,11,ExtraTreesClassifier,NA,0.7663410969196093
+72,12,ExtraTreesClassifier,NA,0.7648384673178061
+73,13,ExtraTreesClassifier,NA,0.7558226897069872
+74,14,ExtraTreesClassifier,NA,0.8557475582268971
+75,0,AdaBoostClassifier,NA,0.6506386175807664
+76,1,AdaBoostClassifier,NA,0.6408715251690458
+77,2,AdaBoostClassifier,NA,0.6198347107438017
+78,3,AdaBoostClassifier,NA,0.6333583771600301
+79,4,AdaBoostClassifier,NA,0.70473328324568
+80,5,AdaBoostClassifier,NA,0.6867017280240421
+81,6,AdaBoostClassifier,NA,0.709992486851991
+82,7,AdaBoostClassifier,NA,0.7039819684447783
+83,8,AdaBoostClassifier,NA,0.6979714500375658
+84,9,AdaBoostClassifier,NA,0.6912096168294516
+85,10,AdaBoostClassifier,NA,0.7610818933132982
+86,11,AdaBoostClassifier,NA,0.777610818933133
+87,12,AdaBoostClassifier,NA,0.7768595041322314
+88,13,AdaBoostClassifier,NA,0.7663410969196093
+89,14,AdaBoostClassifier,NA,0.8564988730277987
+90,0,BayesClassifier,NA,0.6506386175807664
+91,1,BayesClassifier,NA,0.6408715251690458
+92,2,BayesClassifier,NA,0.6198347107438017
+93,3,BayesClassifier,NA,0.6333583771600301
+94,4,BayesClassifier,NA,0.70473328324568
+95,5,BayesClassifier,NA,0.6867017280240421
+96,6,BayesClassifier,NA,0.709992486851991
+97,7,BayesClassifier,NA,0.6987227648384673
+98,8,BayesClassifier,NA,0.7054845980465815
+99,9,BayesClassifier,NA,0.69045830202855
+100,10,BayesClassifier,NA,0.7595792637114951
+101,11,BayesClassifier,NA,0.7746055597295267
+102,12,BayesClassifier,NA,0.7708489857250188
+103,13,BayesClassifier,NA,0.768595041322314
+104,14,BayesClassifier,NA,0.850488354620586
+105,0,GradientBoostingClassifier,NA,0.6506386175807664
+106,1,GradientBoostingClassifier,NA,0.6408715251690458
+107,2,GradientBoostingClassifier,NA,0.6198347107438017
+108,3,GradientBoostingClassifier,NA,0.6333583771600301
+109,4,GradientBoostingClassifier,NA,0.7054845980465815
+110,5,GradientBoostingClassifier,NA,0.6867017280240421
+111,6,GradientBoostingClassifier,NA,0.709992486851991
+112,7,GradientBoostingClassifier,NA,0.6987227648384673
+113,8,GradientBoostingClassifier,NA,0.7032306536438768
+114,9,GradientBoostingClassifier,NA,0.6912096168294516
+115,10,GradientBoostingClassifier,NA,0.7618332081141999
+116,11,GradientBoostingClassifier,NA,0.7761081893313299
+117,12,GradientBoostingClassifier,NA,0.7648384673178061
+118,13,GradientBoostingClassifier,NA,0.763335837716003
+119,14,GradientBoostingClassifier,NA,0.8542449286250939
+120,0,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+121,1,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+122,2,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+123,3,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+124,4,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+125,5,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+126,6,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+127,7,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+128,8,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+129,9,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+130,10,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+131,11,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+132,12,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+133,13,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+134,14,NeuralNetwork,"3 Dense layers (80,60,60 nodes), 3 dropout layers(.5,.4,.3)",0.40646129846572876
+135,0,KNeighborsClassifier,NA,0.6393688955672426
+136,1,KNeighborsClassifier,NA,0.5912847483095417
+137,2,KNeighborsClassifier,NA,0.5612321562734786
+138,3,KNeighborsClassifier,NA,0.5394440270473329
+139,4,KNeighborsClassifier,NA,0.6874530428249437
+140,5,KNeighborsClassifier,NA,0.6746806912096168
+141,6,KNeighborsClassifier,NA,0.6649135987978964
+142,7,KNeighborsClassifier,NA,0.6491359879789632
+143,8,KNeighborsClassifier,NA,0.6558978211870774
+144,9,KNeighborsClassifier,NA,0.6318557475582269
+145,10,KNeighborsClassifier,NA,0.6927122464312547
+146,11,KNeighborsClassifier,NA,0.7528174305033809
+147,12,KNeighborsClassifier,NA,0.7310293012772352
+148,13,KNeighborsClassifier,NA,0.7257700976709242
+149,14,KNeighborsClassifier,NA,0.8061607813673929

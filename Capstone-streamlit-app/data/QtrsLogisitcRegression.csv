@@ -1,0 +1,16 @@
+﻿combo,accuracy
+# Q1 winner correlation,0.650638618
+# Q2 winner correlation,0.640871525
+# Q3 winner correlation,0.619834711
+# Q4 winner correlation,0.633358377
+# Q1/Q2 winner correlation,0.704733283
+# Q2/Q3 winner correlation,0.686701728
+# Q3/Q4 winner correlation,0.709992487
+# Q1/Q3 winner correlation,0.703981968
+# Q1/Q4 winner correlation,0.69797145
+# Q2/Q4 winner correlation,0.691209617
+# Q1/Q2/Q3 winner correlation,0.760330579
+# Q1/Q3/Q4 winner correlation,0.776859504
+# Q1/Q2/Q4 winner correlation,0.776859504
+# Q2/Q3/Q4 winner correlation,0.767092412
+# Q1/Q2/Q3/Q4 winner correlation,0.864763336
