@@ -60,9 +60,9 @@ As with many modeling experiments more questions than answers were generated. Bu
 #### Background 
 Before I became a data scientist, I had already amassed a great deal of experience in sports-related pursuits. My radio, TV, and Internet sports broadcasting career spans almost three decades and includes play-by-play and color analysis of high school and college sports of all kinds, including football. I’ve also been fortunate to work as an in-venue public address announcer for amateur and professional sporting events. Most importantly, I’ve been a lifelong NFL and football fan. So it’s easy to see why I would be drawn to an experiment involving NFL scoring patterns.
 
-After exploring the idea of trying to predict specific quarterly football scores of NFL games, I came upon a June 2018 article on the towards data science blog written by Phillip Hale entitled, [“Does winning in the first quarter really matter in the NFL?”]("https://towardsdatascience.com/nfl-which-quarters-correlate-most-with-winning-87f23024c44a"). In the piece, Hale (a naive logistician) produced Python code for a supervised regression machine learning task that examined quarterly scores and several other variables in an attempt to determine whether they correlated with the outcome of the NFL game.
+After exploring the idea of trying to predict specific quarterly football scores of NFL games, I came upon a June 2018 article on the towards data science blog written by Phillip Hale entitled, "Does winning in the first quarter really matter in the NFL?"<sup>1</sup>. In the piece, Hale (a naive logistician) produced Python code for a supervised regression machine learning task that examined quarterly scores and several other variables in an attempt to determine whether they correlated with the outcome of the NFL game.
 
-Hale’s [dataset]('https://github.com/naivelogic/NFL-smarter-football/blob/master/nfl_team_stats.csv') only used 288 regular season games over a period between 2009 and 2017. I decided to create an experiment that encompassed all NFL games dating back to 2000 and forward to 2019, including playoff contests. 
+Hale’s dataset<sup>2</sup> only used 288 regular season games over a period between 2009 and 2017. I decided to create an experiment that encompassed all NFL games dating back to 2000 and forward to 2019, including playoff contests. 
 
 #### Assumptions 
 
@@ -438,4 +438,8 @@ As with many modeling experiments more questions than answers were generated. Bu
 #### Thanks
 
 I would like to extend a heartfelt “thank you!” to my instructors at General Assembly for their assistance with this project. Without Jeff Hale (no relation to author Philip Hale), Jacob Koehler, and Eric Bayless, I would not have been able to coax this project over the finish line. I’m also grateful for the skills they taught me and the knowledge they imparted to me which also aided me throughout my experiment.
+
+<sup>1</sup>: <"https://towardsdatascience.com/nfl-which-quarters-correlate-most-with-winning-87f23024c44a">
+<sup>2</sup>: <'https://github.com/naivelogic/NFL-smarter-football/blob/master/nfl_team_stats.csv'>
+
 
