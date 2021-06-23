@@ -73,7 +73,7 @@ My approach did not involve studying the discrete quarterly scores of each team 
 Even though NFL games that are tied after four quarters of play proceed to an overtime period to determine a winner, no overtime stanzas were considered for this experiment; instead, these contests were designated as a “tie” game. In addition, the master dataset contained additional information about each game, including date, day of week, and time of day of each game; the season year and week number of the season in which it was played; and the final score difference.
 #### Data Dictionary 
 
-(QuarterlyWins.csv)[‘data/QuarterlyWins.csv’]
+[QuarterlyWins.csv](‘data/QuarterlyWins.csv’)
 |Variable|type|Description|
 |-----|-----|-----|
 |GameID|string| A combination of letters and numbers which served as each post's unique identifier.|
