@@ -344,7 +344,7 @@ As expected, the four single-quarter clumps produced the lowest accuracy scores 
 
 I followed a similar analysis process for the modeling results that included the week number in the groups of independent variables. Initially, I noted similar results: the maximum accuracy scores by clump were all produced by a RandomForestClassifier, while the minimum counterparts all came as the result of modeling with an AdaBoost Classifier. 
 
-For this part of the analysis, I created a [line graph](images/EvenBetterWeeklyGraph.png) with each of the first four (individual quarter) clumps graphed by week of the season and accuracy score. I also included a horizontal line at 53.63% to denote the baseline model, as well as a vertical line between week 17 and 18 to separate regular season games from those played in the postseason.
+For this part of the analysis, I created a [line graph](images/EvenBetterWeeklyGraph.PNG) with each of the first four (individual quarter) clumps graphed by week of the season and accuracy score. I also included a horizontal line at 53.63% to denote the baseline model, as well as a vertical line between week 17 and 18 to separate regular season games from those played in the postseason.
 
 Tracking the progress of the four clumps on the graph didn’t yield any particular patterns. But I did notice something interesting when I counted the points on the graph which fell below the baseline model. 
 
