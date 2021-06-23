@@ -424,8 +424,8 @@ As with many modeling experiments more questions than answers were generated. Bu
 
 I would like to extend a heartfelt “thank you!” to my instructors at General Assembly for their assistance with this project. Without Jeff Hale (no relation to author Philip Hale), Jacob Koehler, and Eric Bayless, I would not have been able to coax this project over the finish line. I’m also grateful for the skills they taught me and the knowledge they imparted to me which also aided me throughout my experiment.
 
-<sup>1</sup>: <"https://towardsdatascience.com/nfl-which-quarters-correlate-most-with-winning-87f23024c44a">
+<sup>1</sup>: <"https://towardsdatascience.com/nfl-which-quarters-correlate-most-with-winning-87f23024c44a ">
 
-<sup>2</sup>: <'https://github.com/naivelogic/NFL-smarter-football/blob/master/nfl_team_stats.csv'>
+<sup>2</sup>: <'https://github.com/naivelogic/NFL-smarter-football/blob/master/nfl_team_stats.csv' >
 
 
