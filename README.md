@@ -234,15 +234,18 @@ Next, another new column was added to record the number of points by which the w
 Finally, the target column for my subsequent modeling was added to the dataset. Based on the penultimate column, the target column would display a code of ‘HW’ to indicate a home team victory, ‘VW’ to indicate a visiting team victory, or a ‘T’ to indicate a tie after regulation play ended.
 
 Though I was finished adding columns, I still needed to encode the first four new columns in such a way so it would better standardize the values for our modeling process. Therefore, I replaced every numerical value in each of the four result columns with one of seven character codes:
-+‘HHH’ if the home team scored at least 15 points more than the visiting team
-+‘HH’ if the home team scored between 8 and 14 (inclusive) more points more than the visiting team
-+‘H’ if the home team scored between 1 and 7 (inclusive) more points than the visiting team
-+‘T’ if the two teams scored the same amount of points
-+‘V’ if the visiting team scored between 1 and 7 (inclusive) more points than the home team
-+‘VV’ if the visiting team scored between 8 and 14 (inclusive) more points than the home team, or
-+‘VVV’ if the visiting team scored at least 15 points more than the home team.
-Data encoding and grouping 
++ ‘HHH’ if the home team scored at least 15 points more than the visiting team
++ ‘HH’ if the home team scored between 8 and 14 (inclusive) more points more than the visiting team
++ ‘H’ if the home team scored between 1 and 7 (inclusive) more points than the visiting team
++ ‘T’ if the two teams scored the same amount of points
++ ‘V’ if the visiting team scored between 1 and 7 (inclusive) more points than the home team
++ ‘VV’ if the visiting team scored between 8 and 14 (inclusive) more points than the home team, or
++ ‘VVV’ if the visiting team scored at least 15 points more than the home team.
+ 
+#### Data encoding and grouping 
+
 These four result columns made up the first grouping of variables that was to be modeled against the target variable. But because the variables were strings, they needed to be transformed into integers so that the models could be fitted properly. So after subsetting those four result columns from the master dataframe, I then leveraged the OneHotEncoder transformer from Python’s scikit-learn package. 
+
 The result was a 28-column dataframe (four features times the seven code levels) filled with zeros and ones for each of the 5300+ observations. After the target column was concatenated back onto the encoded dataset, its values were also changed to an integer for modeling purposes: a 1 for each VW, a -1 for each HW, and a 0 for each T. 
 Since I didn’t want to restrict my experiment solely to individual quarters, the final steps before modeling started were to group the 28 dataframe columns into what I referred to as “clumps.” These clumps represented the variables related to the four quarters in every possible combination (15 in all). The clumps were labeled as follows:
 
@@ -422,6 +425,7 @@ As with many modeling experiments more questions than answers were generated. Bu
 I would like to extend a heartfelt “thank you!” to my instructors at General Assembly for their assistance with this project. Without Jeff Hale (no relation to author Philip Hale), Jacob Koehler, and Eric Bayless, I would not have been able to coax this project over the finish line. I’m also grateful for the skills they taught me and the knowledge they imparted to me which also aided me throughout my experiment.
 
 <sup>1</sup>: <"https://towardsdatascience.com/nfl-which-quarters-correlate-most-with-winning-87f23024c44a">
+
 <sup>2</sup>: <'https://github.com/naivelogic/NFL-smarter-football/blob/master/nfl_team_stats.csv'>
 
 
